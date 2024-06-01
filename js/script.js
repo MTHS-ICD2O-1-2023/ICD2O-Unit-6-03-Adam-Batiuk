@@ -26,6 +26,10 @@ async function getWeather() {
     const tempMax = kelvinToCelcius(jsonData.main.temp_max)
     const pressure = jsonData.main.pressure
     const humidity = jsonData.main.humidity
+    // test cases
+    console.log("300 K is " + kelvinToCelcius(300) + " °C") // expect 26.9
+    console.log("250 K is " + kelvinToCelcius(250) + " °C") // expect -23.1
+    console.log("340 K is " + kelvinToCelcius(340) + " °C") // 66.9
     // display data
     document.getElementById("icon").src = "https://openweathermap.org/img/wn/" + iconId + "@2x.png"
     document.getElementById("icon").alt = description
