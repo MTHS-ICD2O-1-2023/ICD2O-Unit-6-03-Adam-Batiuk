@@ -1,11 +1,17 @@
 <mxfile host="65bd71144e">
     <diagram id="HIP3nbAZw_EuaXWnEj3U" name="Page-1">
-        <mxGraphModel dx="399" dy="236" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1726" dy="666" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="7" value="http://ics2o.mths.ca" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="40" y="40" width="760" height="480" as="geometry"/>
+                <mxCell id="7" value="http://ics2o.mths.ca" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="45" y="50" width="760" height="480" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="&lt;div&gt;broken clouds&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;temp: ?&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;feels like: ?&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;temp min: ?&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;temp max: ?&lt;/span&gt;&lt;/div&gt;&lt;div&gt;pressure: ?&lt;/div&gt;&lt;div&gt;humidity: ?&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="7">
+                    <mxGeometry x="45" y="250" width="290" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="(Icon)" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="7">
+                    <mxGeometry x="55" y="100" width="80" height="80" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
